@@ -85,6 +85,15 @@ int main(){
         cout<<endl;
     }
 
+//10. some sort trick of vector
+    // sort in ascending and descending order
+    sort(v.begin(),v.end());
+    reverse(v.begin(),v.end());
+    // find max and min element in vector
+    cout<<"Max element in v: "<<*max_element(v.begin(),v.end())<<endl;
+    cout<<"Min element in v: "<<*min_element(v.begin(),v.end())<<endl;
+    
+
 
 return 0;
 }
