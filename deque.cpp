@@ -16,12 +16,12 @@ int main(){
     dq1.pop_front(); //remove from front
 
     //4. Accessing elements
-    cout << "Front element: " << dq1.front() << endl; //access front
-    cout << "Back element: " << dq1.back() << endl; //access back
-    cout << "Element at index 0: " << dq1.at(0) << endl; //access at index
+    cout << "Front element: " << dq4.front() << endl; //access front
+    cout << "Back element: " << dq4.back() << endl; //access back
+    cout << "Element at index 0: " << dq4.at(0) << endl; //access at index
     
     //5. Size and capacity
-    cout << "Size of dq1: " << dq1.size() << endl; //size
+    cout << "Size of dq4: " << dq4.size() << endl; //size
     cout << "Is dq1 empty? " << (dq1.empty() ? "Yes" : "No") << endl; //check empty
 
     //6. Iteration
@@ -32,7 +32,7 @@ int main(){
     cout << endl;
     //7. Clear
     dq4.clear(); //clear all elements
-    cout << "Size of dq4 after clear: " << dq4.size() << endl
+  
 
     return 0;
 }
