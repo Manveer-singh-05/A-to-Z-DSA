@@ -2,4 +2,4 @@
 
 In this repo i will upload the concepts that i will learned in dsa 
 
-1. learning stl library ..
+1. learning stl library 
