@@ -1,8 +1,8 @@
-#inlcude <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
     int n;
-    cint<<"Enter the size of array: ";
+    cout<<"Enter the size of array: ";
     cin>>n;
     int arr[n];
     cout<<"Enter the elements of array: ";
@@ -27,5 +27,5 @@ int main(){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    
+
 }
