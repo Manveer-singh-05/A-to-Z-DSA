@@ -3,4 +3,4 @@
 In this repo i will upload the concepts that i will learned in dsa 
 
 1.  Stl library
-2.  Array..
+2.  Array
