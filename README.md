@@ -14,3 +14,4 @@ In this repo i will upload the concepts that i will learned in dsa
 10. basic math logic
 11. sorting algorithm
 12. named algorithm
+13. dynamic programming
