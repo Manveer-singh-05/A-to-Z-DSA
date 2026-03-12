@@ -92,7 +92,10 @@ int main(){
     // find max and min element in vector
     cout<<"Max element in v: "<<*max_element(v.begin(),v.end())<<endl;
     cout<<"Min element in v: "<<*min_element(v.begin(),v.end())<<endl;
-    
+
+//11. some more functions of vector
+    cout<<"Count of 99 in v: "<<count(v.begin(),v.end(),99)<<endl;
+    cout<<"Find element in vector: "<<(find(v.begin(),v.end(),99) != v.end() ? "Found" : "Not Found")<<endl;
 
 
 return 0;
