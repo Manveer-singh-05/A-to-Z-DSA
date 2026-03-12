@@ -16,3 +16,4 @@ In this repo i will upload the concepts that i will learned in dsa
 12. named algorithm
 13. dynamic programming
 14. string
+15. patterns
