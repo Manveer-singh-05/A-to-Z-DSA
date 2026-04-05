@@ -17,3 +17,4 @@ In this repo i will upload the concepts that i will learned in dsa
 13. dynamic programming
 14. string
 15. patterns
+16. Binary search
