@@ -18,3 +18,4 @@ In this repo i will upload the concepts that i will learned in dsa
 14. string
 15. patterns
 16. Binary search
+17. linked list
