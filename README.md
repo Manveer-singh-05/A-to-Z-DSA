@@ -19,3 +19,4 @@ In this repo i will upload the concepts that i will learned in dsa
 17. linked list
 18. stack
 19. queue
+20. singly linked list
