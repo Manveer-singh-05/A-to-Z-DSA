@@ -1,7 +1,5 @@
-# A-to-Z-DSA
-
+# A-to-Z-DSA       
 In this repo i will upload the concepts that i will learned in dsa 
-
 1. Stl library
 2. Array
 3. basic recursion problem
@@ -18,3 +16,8 @@ In this repo i will upload the concepts that i will learned in dsa
 14. string
 15. patterns
 16. Binary search
+17. linked list
+18. stack
+19. queue
+20. singly linked list
+21. doubly linked list
