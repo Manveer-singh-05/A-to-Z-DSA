@@ -16,9 +16,6 @@ In this repo i will upload the concepts that i will learned in dsa
 14. string
 15. patterns
 16. Binary search
-17. linked list
-18. stack
-19. queue
-20. singly linked list
-21. doubly linked list
-22.greedy
+17. stack
+18. queue
+19.greedy
