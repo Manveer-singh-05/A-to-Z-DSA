@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+int lcs(string &s1, string &s2, int n, int m, vector<vector<int>>&k){
+    if(n==0 || m==0){
+        return 0;
+    }
+    if(k[n][m]!=-1){
+        return k[n][m];
+    }
+    else if(s1[n-1]==s2[m-1]){
+        return k[n][m] = 1 + lcs(s1,s2,n-1,m-1,k);
+    }
+    else{
+        return k[n][m] = max(lcs(s1,s2,n,m-1,k), lcs(s1,s2,n-1,m,k));
+    }
+}
+int main(){
+    string s1;
+    cin>>s1;
+    string s2;
+    s2 = s1;
+    reverse(s2.begin(), s2.end());
+    int n = s1.size();
+    int m = n;
+    vector<vector<int>>k(n+1, vector<int>(m+1, -1));
+    cout<<lcs(s1,s2,n,m,k);
+}
