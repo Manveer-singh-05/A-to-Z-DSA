@@ -8,10 +8,10 @@ int lcs(string &s, string &t, int n ,int m, vector<vector<int>>&k){
         return k[n][m];
     }
     else if(s[n-1]==t[m-1]){
-        k[n][m] = 1 + lcs(s,t,n-1,m-1, k);
+       return  k[n][m] = 1 + lcs(s,t,n-1,m-1, k);
     }
     else{
-        k[n][m] = max(lcs(s,t,n-1,m,k), lcs(s,t,n,m-1,k));
+       return  k[n][m] = max(lcs(s,t,n-1,m,k), lcs(s,t,n,m-1,k));
     }
 }
 int main(){
