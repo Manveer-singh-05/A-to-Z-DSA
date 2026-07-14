@@ -19,3 +19,4 @@ In this repo i will upload the concepts that i will learned in dsa
 17. stack
 18. queue
 19.greedy
+20.stack
