@@ -21,3 +21,4 @@ In this repo i will upload the concepts that i will learned in dsa
 19.greedy
 20.stack
 21. tree
+22.graph
