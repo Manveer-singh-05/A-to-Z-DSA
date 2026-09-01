@@ -6,12 +6,45 @@ class graph{
     void adjacancylist(int n, int m, vector<pair<int,int>>edges){
         adj.resize(n);
         for(int i=0;i<m;i++){
-            int u = edges[i][0];
-            int v = edges[i][1];
+            int u = edges[i].first;
+            int v = edges[i].second;
             adj[u].push_back(v);
         }
     }
-    bool checkcycle(int )
+    bool checkcycle(){
+        int v = adj.size();
+        vector<int>ans(v,0);
+        for(int i=0;i<v;i++){
+            for(auto it: adj[i]){
+                ans[it]++;
+            }
+        }
+        queue<int>q;
+        int count = 0 ;
+        for(int i=0;i<ans.size();i++){
+            if(ans[i]==0){
+                q.push(i);
+            }
+        }
+        while(!q.empty()){
+            int front = q.front();
+            q.pop();
+            count++;
+            for(auto it : adj[front]){
+                ans[it]--;
+                if(ans[it]==0){
+                    q.push(it);
+
+                }
+            }
+        }
+        if(count==v){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
 };
 int main(){
     int n;
@@ -26,6 +59,11 @@ int main(){
     }
     graph g;
     g.adjacancylist(n,m,edges);
-    
+    if(g.checkcycle()){
+        cout << "Cycle exists";
+    }
+    else{
+        cout << "No cycle";
+    }
 
 }
