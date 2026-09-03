@@ -20,5 +20,5 @@ In this repo i will upload the concepts that i will learned in dsa
 18. queue
 19.greedy
 20.stack
-tree
+21. tree
 22.graph
