@@ -18,6 +18,5 @@
 17. stack
 18. queue
 19. greedy
-20. stack
 21. tree
 22. graph
